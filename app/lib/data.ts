@@ -71,7 +71,7 @@ export const projectsData = [
   {
     title: "Airbnb Clone",
     description:
-      "I worked as a full-stack developer on this startup project for 6 month. It has features like filtering, listing and favorites.",
+      "I worked as a full-stack developer on this project for 6 month. It has features like filtering, listing and favorites.",
     tags: ["React", "Next.js","TypeScript", "Supabase", "Tailwind", "Prisma"],
     imageUrl: airbnbImg,
     url:"https://airbnb838.vercel.app/"
