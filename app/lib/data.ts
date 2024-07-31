@@ -2,6 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import airbnbImg from "@/public/airbnb_clone.png";
+import myportfoImg from "@/public/my-portfolio.png";
+import mysecondportfoImg from "@/public/second portfolio.png";
 
 export interface ExperienceItem {
   title: string;
@@ -70,8 +72,25 @@ export const projectsData = [
     title: "Airbnb Clone",
     description:
       "I worked as a full-stack developer on this startup project for 6 month. It has features like filtering, listing and my favorite.",
-    tags: ["React", "Next.js", "Supabase", "Tailwind", "Prisma"],
+    tags: ["React", "Next.js","TypeScript", "Supabase", "Tailwind", "Prisma"],
     imageUrl: airbnbImg,
+    url:"https://airbnb838.vercel.app/"
+  },
+  {
+    title: "Currently Portfolio",
+    description:
+      "A public web app for people or hiring managers to view the projects I’ve worked on. It has feature to send email",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind"],
+    imageUrl: myportfoImg,
+    url:"https://my-portfolio-nine-gray-46.vercel.app/"
+  },
+  {
+    title: "First Portfolio",
+    description:
+      "A public web app for people or hiring managers to view the projects I’ve worked on. It has feature to send email",
+    tags: ["HTML", "CSS", "Bootstrap"],
+    imageUrl: mysecondportfoImg,
+    url:"https://ahyarfatahillah.github.io/"
   },
 ] as const;
 
