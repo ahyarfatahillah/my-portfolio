@@ -3,6 +3,14 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import airbnbImg from "@/public/airbnb_clone.png";
 
+export interface ExperienceItem {
+  title: string;
+  date: string;
+  location: string;
+  description: string;
+  icon: React.ReactNode; // If your icon is a React component
+}
+
 export const links = [
   {
     name: "Home",
